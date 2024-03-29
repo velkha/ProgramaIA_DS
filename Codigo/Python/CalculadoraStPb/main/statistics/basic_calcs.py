@@ -1,8 +1,8 @@
 import math
 import numpy as np
-from scipy import stats
 
-class StatisticCalcs:
+class BasicCalcs:
+    '''All the basic statistical calculations for numerical data are implemented here.'''
     def __init__(self):
         pass
 
@@ -17,6 +17,9 @@ class StatisticCalcs:
         else:
             return sorted_data[n // 2]
 
+    def calculate_mode(self, data):
+        return max(data, key=data.count)
+
     def calculate_variance(self, data):
         mean = self.calculate_mean(data)
         squared_diffs = [(x - mean) ** 2 for x in data]
@@ -28,15 +31,3 @@ class StatisticCalcs:
     
     def calculate_standard_error(self, data):
         return self.calculate_standard_deviation(data) / math.sqrt(len(data))
-    
-    def calculate_p_value_T(self, sample_data, population_mean, axis=0):
-        return stats.ttest_1samp(sample_data, population_mean, axis=axis)
-    
-    def calculate_p_value_Z(self, sample_data, population_mean, population_std, axis=0):
-        n = len(sample_data)
-        z_score = (self.calculate_mean(sample_data) - population_mean) / (population_std / np.sqrt(n))
-        p_value_two_tailed = stats.norm.sf(abs(z_score)) * 2
-        p_value_left = stats.norm.sf(abs(z_score))
-        p_value_right = stats.norm.sf(-abs(z_score))
-        return z_score, p_value_two_tailed, p_value_left, p_value_right
-    
