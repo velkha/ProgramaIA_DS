@@ -35,6 +35,7 @@ class MenusStatistic:
             8: self.calculate_percentiles,
             9: self.calculate_quartiles,
             10: self.calculate_value_for_percentile,
+            11: self.calculate_probability_more_than
         }
         return _switcher.get(_rtr, self.basic_calcs_menu)()
     
@@ -54,6 +55,7 @@ class MenusStatistic:
             2: self.calculate_sum_standard_error,
             3: self.calculate_sum_confidence_interval,
             4: self.calculate_sum_expected_value,
+            5: self.calculate_probability_sum_more_than,
             0: self.statistics_menu
         }
         return _switcher.get(_rtr, self.sum_operations_menu)()
@@ -158,6 +160,24 @@ class MenusStatistic:
         _data=self.data_loader.data_check()
         _probability = float(input('Enter the probability: '))
         UIWorker.print([f'The sum expected value of the data is {BasicCalcs().calculate_sum_expected_value(_data, _probability)}'], "Blue")
+        UIWorker.input('Press Enter to continue...')
+        return self.sum_operations_menu()
+
+    def calculate_probability_more_than(self) -> None:
+        _sample_size = int(input('Enter the sample size: '))
+        _mean = float(input('Enter the mean: '))
+        _standard_deviation = float(input('Enter the standard deviation: '))
+        _value = float(input('Enter the value: '))
+        UIWorker.print([f'The probability of the data is {BasicCalcs().calculate_probability_more_than(_sample_size, _mean, _standard_deviation, _value)}'], "Blue")
+        UIWorker.input('Press Enter to continue...')
+        return self.basic_calcs_menu()
+
+    def calculate_probability_sum_more_than(self) -> None:
+        _sample_size = int(input('Enter the sample size: '))
+        _mean = float(input('Enter the mean: '))
+        _standard_deviation = float(input('Enter the standard deviation: '))
+        _value = float(input('Enter the value: '))
+        UIWorker.print([f'The probability of the data is {BasicCalcs().calculate_probability_sum_more_than(_sample_size, _mean, _standard_deviation, _value)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
         return self.sum_operations_menu()
 

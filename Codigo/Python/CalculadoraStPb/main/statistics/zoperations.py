@@ -2,6 +2,7 @@ from scipy import stats
 import numpy as np
 from statistics.basic_calcs import BasicCalcs
 class ZOperations:
+    #todo: correct method signature
     def calculate_p_value_Z(self, sample_data, population_mean, population_std, axis=0):
         _n = len(sample_data)
         _z_score = (BasicCalcs.calculate_mean(sample_data) - population_mean) / (population_std / np.sqrt(_n))

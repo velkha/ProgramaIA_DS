@@ -6,37 +6,37 @@ class ProbabilityOperations:
     def __init__(self):
         pass
 
-    def calculate_probability(self, event_outcomes, sample_space) -> float:
+    def calculate_probability(self, event_outcomes: int, sample_space: int) -> float:
         """
         Calculates the probability of an event given the number of favorable outcomes and the sample space size.
         """
         return event_outcomes / sample_space
 
-    def complement(self, probability) -> float:
+    def complement(self, probability: float) -> float:
         """
         Calculates the complement of a given probability.
         """
         return 1 - probability
 
-    def union(self, probability_a, probability_b) -> float:
+    def union(self, probability_a: float, probability_b: float) -> float:
         """
         Calculates the union of two probabilities using the inclusion-exclusion principle.
         """
         return probability_a + probability_b - self.intersection(probability_a, probability_b)
 
-    def intersection(self, probability_a, probability_b) -> float:
+    def intersection(self, probability_a: float, probability_b: float) -> float:
         """
         Calculates the intersection of two probabilities.
         """
         return probability_a * probability_b
 
-    def conditional(self, probability_a, probability_b) -> float:
+    def conditional(self, probability_a: float, probability_b: float) -> float:
         """
         Calculates the conditional probability of A given B.
         """
         return self.intersection(probability_a, probability_b) / probability_b
     
-    def calculateTotalFavorableOutcomes(self, sample_space, favorableOutcomes) -> int:
+    def calculateTotalFavorableOutcomes(self, sample_space: int, favorableOutcomes:int) -> int:
         """
         Calculates the total number of favorable outcomes. Esto se hace
         de manera mas optima con math.comb(sample_space, favorableOutcomes), esto es una aplicacion para asentar
@@ -45,13 +45,13 @@ class ProbabilityOperations:
         return math.factorial(sample_space) / (math.factorial(favorableOutcomes) 
                                                * math.factorial(sample_space - favorableOutcomes))
     
-    def calculateBinomialProbability(self, k, n, p) -> float:
+    def calculateBinomialProbability(self, k: float, n: float, p: float) -> float:
         """
         Calculates the probability of k successes in n trials with probability p.
         """
         return math.comb(n, k) * (p ** k) * ((1 - p) ** (n - k))
     
-    def normalAproximationToBinomial(self, n, p) -> tuple:
+    def normalAproximationToBinomial(self, n: float, p: float) -> tuple:
         """
         Approximates a binomial distribution to a normal distribution.
         """
@@ -83,19 +83,19 @@ class ProbabilityOperations:
         return(prob)
 
 
-    def normalProbability(self, x, mu, sigma) -> float:
+    def normalProbability(self, x: float, mu: float, sigma: float) -> float:
         """
         Calculates the probability of a value in a normal distribution.
         """
         return (1 / (sigma * math.sqrt(2 * math.pi))) * math.exp(-0.5 * ((x - mu) / sigma) ** 2)
     
-    def normalProbabilityRange(self, x1, x2, mu, sigma) -> float:   
+    def normalProbabilityRange(self, x1: float, x2: float, mu: float, sigma: float) -> float:   
         """
         Calculates the probability of a range of values in a normal distribution.
         """
         return self.normalProbability(x2, mu, sigma) - self.normalProbability(x1, mu, sigma)
     
-    def calculate_value_probabilities(self, values) -> dict:
+    def calculate_value_probabilities(self, values: list) -> dict:
         """
         Calculates the probability of each value in the given array.
         Returns a dictionary with the value as the key and its probability as the value.
@@ -106,3 +106,22 @@ class ProbabilityOperations:
             probability = values.count(value) / total_values
             probabilities[value] = round(probability, 5)
         return probabilities
+    
+    def probability_under_value_manual(self, value: float, mean: float, std_dev: float, sample_size: float) -> float:
+        """
+        Calculates the probability of getting a value under a given value in a normal distribution.
+        """
+        z = (value - mean) / (std_dev / math.sqrt(sample_size))
+        prob = norm.cdf(z)
+        return prob
+    
+    def probability_under_value_with_sample(self, value: float, data: list) -> float:
+        """
+        Calculates the probability of getting a value under a given value in a normal distribution.
+        """
+        mean = np.mean(data)
+        std_dev = np.std(data)
+        sample_size = len(data)
+        z = (value - mean) / (std_dev / math.sqrt(sample_size))
+        prob = norm.cdf(z)
+        return prob

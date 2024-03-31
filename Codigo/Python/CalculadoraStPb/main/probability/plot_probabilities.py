@@ -6,7 +6,7 @@ from probability.operations import ProbabilityOperations
 import matplotlib.pyplot as plt
 
 class ProbabilityPlotter:
-    def plot_binomial_probability(self, n, p):
+    def plot_binomial_probability(self, n: float, p: float):
         _x = np.arange(0, n+1)
         _y = binom.pmf(_x, n, p)
 
@@ -17,7 +17,7 @@ class ProbabilityPlotter:
         plt.savefig(DirectoryWorker.secure_save('probabilityplot', '.png'))
         UIWorker.print('The plot has been saved', "Blue")
 
-    def plot_probabilities_histogram(self, data):
+    def plot_probabilities_histogram(self, data: list | dict):
 
         if not isinstance(data, dict):
             operator = ProbabilityOperations()

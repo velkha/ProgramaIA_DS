@@ -24,6 +24,8 @@ class MenusShow:
                         '8. Calculate binomial probability',
                         '9. Normal approximation to binomial',
                         '10. Calculate probabilities for value',
+                        '11. Calculate probability under a value',
+                        '12. Calculate probability under a value with sample data',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
@@ -66,6 +68,7 @@ class MenusShow:
                         '8. Calculate percentiles',
                         '9. Calculate quartiles',
                         '10. Calculate value for percentile',
+                        '11. Calculate probability more than',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
@@ -79,6 +82,7 @@ class MenusShow:
                         '2. Calculate sum standard error', 
                         '3. Calculate sum confidence interval', 
                         '4. Calculate sum expected value',
+                        '5. Calculate probability sum more than',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)

@@ -10,6 +10,9 @@ class DiscreteRandomVariable:
         self.probabilities = probabilities
 
     def simulate(self, n: int) -> List[str]:
+        '''
+        Simulate n samples from the random variable.
+        '''
         _samples = []
         for _ in range(n):
             _rand_num = random.random()

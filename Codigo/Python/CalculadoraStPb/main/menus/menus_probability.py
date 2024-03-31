@@ -21,7 +21,9 @@ class MenusProbability:
             7: self.calculateTotalFavorableOutcomes,
             8: self.calculateBinomialProbability,
             9: self.binomialProbabilityNormalApproximation,
-            10: self.calculate_value_probabilities
+            10: self.calculate_value_probabilities,
+            11: self.probability_under_value,
+            12: self.probability_under_value_with_sample
         }
         return _switcher.get(_rtr, self.probability_menu)()
     
@@ -116,6 +118,24 @@ class MenusProbability:
         ProbabilityPlotter().plot_probabilities_histogram(_data)
         UIWorker.input('Press Enter to continue...')
         return self.plot_menu()
+    
+    def probability_under_value(self) -> None:
+        _value = float(UIWorker.input('Enter the value: '))
+        _mean = float(UIWorker.input('Enter the mean: '))
+        _std_dev = float(UIWorker.input('Enter the standard deviation: '))
+        _sample_size = int(UIWorker.input('Enter the sample size: '))
+
+        UIWorker.print(f'The probability of getting a value under {_value} is {ProbabilityOperations().probability_under_value(_value, _mean, _std_dev, _sample_size)}', "Blue")
+        UIWorker.input('Press Enter to continue...')
+        return self.probability_menu()
+    
+    def probability_under_value_with_sample(self) -> None:
+        _value = float(UIWorker.input('Enter the value: '))
+        _data=self.data_loader.data_check()
+        UIWorker.print(f'The probability of getting a value under {_value} is {ProbabilityOperations().probability_under_value_with_sample(_value, _data)}', "Blue")
+        UIWorker.input('Press Enter to continue...')
+        return self.probability_menu()
+
 
     def start_menu(self) -> int:
         pass
