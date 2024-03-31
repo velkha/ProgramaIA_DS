@@ -2,7 +2,12 @@ from menus.menus_show import MenusShow
 from probability.operations import ProbabilityOperations
 from utils.ui_worker import UIWorker
 from probability.plot_probabilities import ProbabilityPlotter
+from utils.data_loader import DataLoader
 class MenusProbability: 
+
+    def __init__(self):
+        self.data_loader = DataLoader()
+
     def probability_menu(self) -> int:
         _rtr = MenusShow.probability_menu()
         _switcher = {
@@ -15,7 +20,8 @@ class MenusProbability:
             6: self.calculate_conditional,
             7: self.calculateTotalFavorableOutcomes,
             8: self.calculateBinomialProbability,
-            9: self.binomialProbabilityNormalApproximation
+            9: self.binomialProbabilityNormalApproximation,
+            10: self.calculate_value_probabilities
         }
         return _switcher.get(_rtr, self.probability_menu)()
     
@@ -23,7 +29,8 @@ class MenusProbability:
         _rtr = MenusShow.plot_menu()
         _switcher = {
             0: self.probability_menu,
-            1: self.plot_binomial_probability
+            1: self.plot_binomial_probability,
+            2: self.plot_probabilities_histogram
         }
         return _switcher.get(_rtr, self.plot_menu)()
 
@@ -93,6 +100,22 @@ class MenusProbability:
         UIWorker.print(f'The normal approximation to the binomial distribution is {ProbabilityOperations().binomialProbabilityNormalApproximation(_k, _n, _p)}', "Blue")
         UIWorker.input('Press Enter to continue...')
         return self.probability_menu()
+    
+    def calculate_value_probabilities(self) -> None:
+        _data=self.data_loader.data_check()
+        UIWorker.print([f'The probabilities for the value of the data are {ProbabilityOperations().calculate_value_probabilities(_data)}'], "Blue")
+        _option = UIWorker.input('Do you want to plot the probabilities histogram? (y/n): ')
+        if _option == 'y':
+            ProbabilityPlotter().plot_probabilities_histogram(_data)
+        
+        UIWorker.input('Press Enter to continue...')
+        return self.probability_menu()
+
+    def plot_probabilities_histogram(self) -> None:
+        _data=self.data_loader.data_check()
+        ProbabilityPlotter().plot_probabilities_histogram(_data)
+        UIWorker.input('Press Enter to continue...')
+        return self.plot_menu()
 
     def start_menu(self) -> int:
         pass

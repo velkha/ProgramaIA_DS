@@ -94,3 +94,15 @@ class ProbabilityOperations:
         Calculates the probability of a range of values in a normal distribution.
         """
         return self.normalProbability(x2, mu, sigma) - self.normalProbability(x1, mu, sigma)
+    
+    def calculate_value_probabilities(self, values) -> dict:
+        """
+        Calculates the probability of each value in the given array.
+        Returns a dictionary with the value as the key and its probability as the value.
+        """
+        probabilities = {}
+        total_values = len(values)
+        for value in values:
+            probability = values.count(value) / total_values
+            probabilities[value] = round(probability, 5)
+        return probabilities

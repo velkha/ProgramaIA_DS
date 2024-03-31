@@ -1,0 +1,638 @@
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+4
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+4
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+4
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The sum expected value of the data is 25.0
+--- END OF OUTPUT ---
+
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+4
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+1
+The sum expected value of the data is 25.0
+--- END OF OUTPUT ---
+
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+4
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+1
+The sum expected value of the data is 50.0
+--- END OF OUTPUT ---
+
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+2
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+2
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The sum standard error of the data is 0.5
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The sum standard error of the data is 5.0
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The sum standard error of the data is 14001421.374274828
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The sum standard error of the data is 14001421.374274828
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+3
+Sum Operations Menu
+1. Calculate sum
+2. Calculate sum standard error
+3. Calculate sum confidence interval
+4. Calculate sum expected value
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The sum standard error of the data is 7.071067811865477
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+10. Calculate probabilities for value
+0. Back
+--- END OF OUTPUT ---
+10
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The probabilities for the value of the data are {0.0: 0.5, 1.0: 0.5}
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+10. Calculate probabilities for value
+0. Back
+--- END OF OUTPUT ---
+1
+Plot Menu
+1. Binomial Probability Distribution
+2. Probability Distribution Histogram
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The plot has been saved
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+10. Calculate probabilities for value
+0. Back
+--- END OF OUTPUT ---
+1
+Plot Menu
+1. Binomial Probability Distribution
+2. Probability Distribution Histogram
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+10. Calculate probabilities for value
+0. Back
+--- END OF OUTPUT ---
+1
+Plot Menu
+1. Binomial Probability Distribution
+2. Probability Distribution Histogram
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The plot has been saved
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+10. Calculate probabilities for value
+0. Back
+--- END OF OUTPUT ---
+1
+Plot Menu
+1. Binomial Probability Distribution
+2. Probability Distribution Histogram
+0. Back
+--- END OF OUTPUT ---
+2
+data2.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The plot has been saved
+--- END OF OUTPUT ---

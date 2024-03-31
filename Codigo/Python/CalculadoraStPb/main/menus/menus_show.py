@@ -23,6 +23,7 @@ class MenusShow:
                         '7. Calculate total favorable outcomes',
                         '8. Calculate binomial probability',
                         '9. Normal approximation to binomial',
+                        '10. Calculate probabilities for value',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
@@ -33,6 +34,7 @@ class MenusShow:
         UIWorker.clear()
         UIWorker.print(['Plot Menu', 
                         '1. Binomial Probability Distribution', 
+                        '2. Probability Distribution Histogram',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
@@ -44,7 +46,8 @@ class MenusShow:
         UIWorker.print(['Statistics Menu', 
                         '1. Basic calculations', 
                         '2. Hypothesis testing', 
-                        '3. Back'])
+                        '3. Sum operations',
+                        '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
     
@@ -67,6 +70,19 @@ class MenusShow:
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
     
+    @staticmethod
+    def sum_operations_menu() -> int:
+        '''Sum operations menu of the app.'''
+        UIWorker.clear()
+        UIWorker.print(['Sum Operations Menu', 
+                        '1. Calculate sum', 
+                        '2. Calculate sum standard error', 
+                        '3. Calculate sum confidence interval', 
+                        '4. Calculate sum expected value',
+                        '0. Back'])
+        _rtr = UIWorker.input('Select an option: ')
+        return int(_rtr)
+
     @staticmethod
     def hypothesis_testing_menu() -> int:
         '''Hypothesis testing menu of the app.'''
