@@ -6,7 +6,7 @@ class MenuWorker:
     '''Class to handle the menus of the app.'''
     
     def start_menu(self) -> int:
-        rtr = MenusShow.start_menu()
+        _rtr = MenusShow.start_menu()
         _menuProb = MenusProbability()
         _menuStat = MenusStatistic()
         switcher = {
@@ -15,7 +15,7 @@ class MenuWorker:
             3: exit
         }
         
-        return switcher.get(rtr, self.start_menu)()
+        return switcher.get(_rtr, self.start_menu)()
 
     
     

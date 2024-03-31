@@ -6,8 +6,8 @@ class FileWorker:
         from utils.ui_worker import UIWorker
         try:
             with open(file_path, 'r') as file:
-                lines = file.readlines()
-                return [line.strip() for line in lines]
+                _lines = file.readlines()
+                return [line.strip() for line in _lines]
         except FileNotFoundError:
             UIWorker.show_error(f"File '{file_path}' not found.")
             return []

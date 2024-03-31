@@ -1,0 +1,359 @@
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+0. Back
+--- END OF OUTPUT ---
+8
+data1.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+0. Back
+--- END OF OUTPUT ---
+8
+data1.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+1
+The percentiles of the data are [91986.0, 89344.0, 85927.0]
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Calculate probability
+2. Calculate complement
+3. Calculate union
+4. Calculate intersection
+5. Calculate conditional
+6. Calculate total favorable outcomes
+0. Back
+--- END OF OUTPUT ---
+6
+6
+4
+The total number of favorable outcomes is 15.0
+--- END OF OUTPUT ---
+
+Probability Menu
+1. Calculate probability
+2. Calculate complement
+3. Calculate union
+4. Calculate intersection
+5. Calculate conditional
+6. Calculate total favorable outcomes
+0. Back
+--- END OF OUTPUT ---
+6
+10
+2
+The total number of favorable outcomes is 45.0
+--- END OF OUTPUT ---
+
+Probability Menu
+1. Calculate probability
+2. Calculate complement
+3. Calculate union
+4. Calculate intersection
+5. Calculate conditional
+6. Calculate total favorable outcomes
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Calculate probability
+2. Calculate complement
+3. Calculate union
+4. Calculate intersection
+5. Calculate conditional
+6. Calculate total favorable outcomes
+7. Calculate binomial probability
+0. Back
+--- END OF OUTPUT ---
+7
+2
+10
+.2
+The probability of k successes in n trials is 0.3019898880000002
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+0. Back
+--- END OF OUTPUT ---
+8
+3
+32
+3
+The probability of k successes in n trials is -71897752535040.0
+--- END OF OUTPUT ---
+n
+
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+0. Back
+--- END OF OUTPUT ---
+8
+5
+15
+0.2
+The probability of k successes in n trials is 0.10318229431910408
+--- END OF OUTPUT ---
+y
+The plot has been saved as probabilityplot.png
+--- END OF OUTPUT ---
+
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+0. Back
+--- END OF OUTPUT ---
+8
+10
+89
+0.1
+The probability of k successes in n trials is 0.12343853475148288
+--- END OF OUTPUT ---
+y
+The plot has been saved as probabilityplot.png
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+9
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+9
+50
+0.2
+12
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+9
+50
+0.2
+12
+The normal approximation to the binomial distribution is 0.7602499389065233
+--- END OF OUTPUT ---
+
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+1
+Plot Menu
+1. Binomial Probability Distribution
+0. Back
+--- END OF OUTPUT ---
+0
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+2
+210
+400
+The probability of the event is 0.525
+--- END OF OUTPUT ---
+
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+9
+400
+210
+
+Start Menu
+1. Probability
+2. Statistics
+3. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+0. Back
+--- END OF OUTPUT ---
+9
+400
+0.5
+210
+The normal approximation to the binomial distribution is 0.8413447460685429
+--- END OF OUTPUT ---
