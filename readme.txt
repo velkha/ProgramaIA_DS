@@ -46,4 +46,10 @@ Codigo - Aplicaciones creadas para ir afianciando conocimientos del curso
                 '3. Calculate sum confidence interval', 
                 '4. Calculate sum expected value',
                 '0. Back'
+            'Hypotesis Test Simple Menu',
+                '1. Check average of sample data in groups',
+                '2. Check variance of sample data in groups',
+                '3. Check proportion of sample data in groups'
+            'Hypotesis Test Full Data Menu',
+                '1. Compare the multiple values of given keys (also retrieve pooled values)'
 
