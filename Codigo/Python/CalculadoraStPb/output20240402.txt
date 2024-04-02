@@ -1472,3 +1472,511 @@ What kind of test do you want to perform?
 3. Check proportion of sample data in groups
 0. Back to previous menu
 --- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Average of Female: 65736.91428571429
+--- END OF OUTPUT ---
+Average of Male: 72300.52631578948
+--- END OF OUTPUT ---
+
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+2
+Keys already exist. Do you want to override them?
+--- END OF OUTPUT ---
+n
+Variance of Female: 1086417843.7224486
+--- END OF OUTPUT ---
+Variance of Male: 1225097027.5293067
+--- END OF OUTPUT ---
+
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+3
+Keys already exist. Do you want to override them?
+--- END OF OUTPUT ---
+n
+Proportion of Female: 0.0
+--- END OF OUTPUT ---
+Proportion of Male: 0.0
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Hypotesis Test Full Data Menu
+1. Check average of sample data
+2. Check variance of sample data
+3. Check proportion of sample data
+0. Back
+--- END OF OUTPUT ---
+0
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+1
+Hypotesis Test Full Data Menu
+1. Check average of sample data
+2. Check variance of sample data
+3. Check proportion of sample data
+0. Back
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Hypotesis Test Full Data Menu
+1. Compare the multiple values of given keys
+0. Back
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Expected value of null hypothesis:
+--- END OF OUTPUT ---
+70000
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+1
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Hypotesis Test Full Data Menu
+1. Compare the multiple values of given keys
+0. Back
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Expected value of null hypothesis:
+--- END OF OUTPUT ---
+70000
+Key: Female, Value: {'mean': 65736.91428571429, 'variance': 1086417843.7224486, 't-score': -1.273830041386567, 'p-value': 0.2057674371271983, 'n': 98}
+--- END OF OUTPUT ---
+Key: Male, Value: {'mean': 72300.52631578948, 'variance': 1225097027.5293067, 't-score': 0.5692100955625166, 'p-value': 0.5709143823476408, 'n': 76}
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Hypotesis Test Full Data Menu
+1. Compare the multiple values of given keys
+0. Back
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+70000
+Expected value of null hypothesis:
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Hypotesis Test Full Data Menu
+1. Compare the multiple values of given keys
+0. Back
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Expected value of null hypothesis:
+--- END OF OUTPUT ---
+70000
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Hypotesis Test Full Data Menu
+1. Compare the multiple values of given keys
+0. Back
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Expected value of null hypothesis:
+--- END OF OUTPUT ---
+70000
+Results:
+--- END OF OUTPUT ---
+Key: Female, Value: {'mean': 65736.91428571429, 'variance': 1086417843.7224486, 't-score': -1.273830041386567, 'p-value': 0.2057674371271983, 'n': 98}
+--- END OF OUTPUT ---
+Key: Male, Value: {'mean': 72300.52631578948, 'variance': 1225097027.5293067, 't-score': 0.5692100955625166, 'p-value': 0.5709143823476408, 'n': 76}
+--- END OF OUTPUT ---
+Key: mean, Value: 68603.77931034483
+--- END OF OUTPUT ---
+Key: variance, Value: 1157588435.4823308
+--- END OF OUTPUT ---
+Key: t-score, Value: -0.5397591721760595
+--- END OF OUTPUT ---
+Key: p-value, Value: 0.5900572008962832
+--- END OF OUTPUT ---
+Key: n, Value: 174
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+2
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Hypotesis Test Full Data Menu
+1. Compare the multiple values of given keys
+0. Back
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Expected value of null hypothesis:
+--- END OF OUTPUT ---
+70000
+Results:
+--- END OF OUTPUT ---
+Key: Female, Value: {'mean': 65736.91428571429, 'variance': 1086417843.7224486, 't-score': -1.273830041386567, 'p-value': 0.2057674371271983, 'n': 98}
+--- END OF OUTPUT ---
+Key: Male, Value: {'mean': 72300.52631578948, 'variance': 1225097027.5293067, 't-score': 0.5692100955625166, 'p-value': 0.5709143823476408, 'n': 76}
+--- END OF OUTPUT ---
+Pooled Values: {'mean': 68603.77931034483, 'variance': 1157588435.4823308, 't-score': -0.5397591721760595, 'p-value': 0.5900572008962832, 'n': 174}
+--- END OF OUTPUT ---

@@ -1,4 +1,5 @@
 import re
+import scipy.stats as stats
 class DataProcessor:
     def __init__(self, data = {}):
         self.data = data
@@ -111,3 +112,27 @@ class DataProcessor:
             _proportions[_group_value] = _proportion
 
         return _proportions
+    
+    def compare_key_values(self, group_key: str, value_key: str, value: float) -> tuple[dict, dict]:
+        '''Compares the values in the data with the value'''
+        if not self.check_data_consistency(group_key, value_key):
+            return {}
+        _grouped_data = self.generategrouped_data(group_key, value_key, False)
+        _comparisons = {}
+        _pooled_values = {}
+        for _group_value, _values in _grouped_data.items():
+            _comparisons[_group_value] = self.getValues(_values, value)
+        _pooled_values = self.getValues([obj[value_key] for obj in self.data], value)
+        return _comparisons, _pooled_values
+    
+    def getValues(self, keyvalues, value):
+        _mean = sum(keyvalues) / len(keyvalues)
+        _variance = sum([(keyvalue - _mean) ** 2 for keyvalue in keyvalues]) / len(keyvalues)
+        _t_score, _p_value = stats.ttest_1samp(keyvalues, value)
+        return {
+            'mean': _mean,
+            'variance': _variance,
+            't-score': _t_score,
+            'p-value': _p_value,
+            'n': len(keyvalues)
+        }

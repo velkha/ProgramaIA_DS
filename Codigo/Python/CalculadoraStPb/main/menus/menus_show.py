@@ -103,8 +103,32 @@ class MenusShow:
     def hypotesis_menu() -> int:
         '''Hypotesis menu of the app.'''
         UIWorker.clear()
-        UIWorker.print(['Hypotesis Menu', '1. Hypotesis test', '0. Back'])
+        UIWorker.print(['Hypotesis Menu',
+                        '1. Hypotesis test simple',
+                        '2. Hypotesis test full data',
+                        '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
     
+    @staticmethod
+    def hypotesis_test_simple_menu() -> int:
+        '''Hypotesis test simple menu of the app.'''
+        UIWorker.clear()
+        UIWorker.print(['Hypotesis Test Simple Menu',
+                        '1. Check average of sample data in groups',
+                        '2. Check variance of sample data in groups',
+                        '3. Check proportion of sample data in groups',
+                        '0. Back'])
+        _rtr = UIWorker.input('Select an option: ')
+        return int(_rtr)
+    
+    @staticmethod
+    def hypotesis_test_full_data_menu() -> int:
+        '''Hypotesis test full data menu of the app.'''
+        UIWorker.clear()
+        UIWorker.print(['Hypotesis Test Full Data Menu',
+                        '1. Compare the multiple values of given keys',
+                        '0. Back'])
+        _rtr = UIWorker.input('Select an option: ')
+        return int(_rtr)
     
