@@ -1,0 +1,1474 @@
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+--- END OF OUTPUT ---
+1
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+1
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+--- END OF OUTPUT ---
+1
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+44
+Invalid option. Please try again.
+--- END OF OUTPUT ---
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dataMultiple.csv
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Female
+Male
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Female
+Male
+--- END OF OUTPUT ---
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Female
+Male
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Average of Female: 65736.91428571429
+--- END OF OUTPUT ---
+Average of Male: 72300.52631578948
+--- END OF OUTPUT ---
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender;Position
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Average of ('Female', 'President & CEO'): 166400.0
+--- END OF OUTPUT ---
+Average of ('Female', 'CIO'): 135200.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Director of Sales'): 124800.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Director of Operations'): 124800.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Software Engineer'): 110439.68000000001
+--- END OF OUTPUT ---
+Average of ('Female', 'Area Sales Manager'): 114608.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Sr. Network Engineer'): 114816.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Production Manager'): 110760.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Sales Manager'): 112320.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Network Engineer'): 78000.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Database Administrator'): 76804.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Sr. Accountant'): 72696.0
+--- END OF OUTPUT ---
+Average of ('Female', 'IT Support'): 58857.06666666667
+--- END OF OUTPUT ---
+Average of ('Female', 'Accountant I'): 59280.0
+--- END OF OUTPUT ---
+Average of ('Female', 'Production Technician II'): 52158.399999999994
+--- END OF OUTPUT ---
+Average of ('Female', 'Production Technician I'): 40110.90909090909
+--- END OF OUTPUT ---
+Average of ('Female', 'Administrative Assistant'): 39582.4
+--- END OF OUTPUT ---
+Average of ('Male', 'IT Director'): 135200.0
+--- END OF OUTPUT ---
+Average of ('Male', 'IT Manager - Support'): 133120.0
+--- END OF OUTPUT ---
+Average of ('Male', 'IT Manager - Infra'): 131040.0
+--- END OF OUTPUT ---
+Average of ('Male', 'IT Manager - DB'): 128960.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Sales Manager'): 116480.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Area Sales Manager'): 115200.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Shared Services Manager'): 114400.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Production Manager'): 112112.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Sr. Network Engineer'): 110240.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Network Engineer'): 93132.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Software Engineer'): 99840.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Database Administrator'): 74810.66666666667
+--- END OF OUTPUT ---
+Average of ('Male', 'Production Technician II'): 52052.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Accountant I'): 54080.0
+--- END OF OUTPUT ---
+Average of ('Male', 'IT Support'): 60299.2
+--- END OF OUTPUT ---
+Average of ('Male', 'Software Engineering Manager'): 56160.0
+--- END OF OUTPUT ---
+Average of ('Male', 'Production Technician I'): 38803.47586206897
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+3
+Available columns:
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Name
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+0
+Hypotesis Menu
+1. Hypotesis test
+2. Hypotesis test with sample
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Average of Female: 65736.91428571429
+--- END OF OUTPUT ---
+Average of Male: 72300.52631578948
+--- END OF OUTPUT ---
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+;
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+2
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Variance of Female: 1086417843.7224486
+--- END OF OUTPUT ---
+Variance of Male: 1225097027.5293067
+--- END OF OUTPUT ---
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Average of Female: 65736.91428571429
+--- END OF OUTPUT ---
+Average of Male: 72300.52631578948
+--- END OF OUTPUT ---
+
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+3
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test
+0. Back
+--- END OF OUTPUT ---
+1
+dm
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+--- END OF OUTPUT ---
+4
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+1
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Average of Female: 65736.91428571429
+--- END OF OUTPUT ---
+Average of Male: 72300.52631578948
+--- END OF OUTPUT ---
+
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---
+2
+This are the keys of the data you have loaded:
+--- END OF OUTPUT ---
+Surname
+Name
+Age
+Gender
+Country
+Ethnicity
+Start_date
+Department
+Position
+Salary
+--- END OF OUTPUT ---
+Give me the key of the group you want to check. If it is a multikey group, separate them with a ';'.
+--- END OF OUTPUT ---
+Gender
+Give me the key of the value you want to check.
+--- END OF OUTPUT ---
+Salary
+Variance of Female: 1086417843.7224486
+--- END OF OUTPUT ---
+Variance of Male: 1225097027.5293067
+--- END OF OUTPUT ---
+
+What kind of test do you want to perform?
+--- END OF OUTPUT ---
+1. Check average of sample data in groups
+2. Check variance of sample data in groups
+3. Check proportion of sample data in groups
+0. Back to previous menu
+--- END OF OUTPUT ---

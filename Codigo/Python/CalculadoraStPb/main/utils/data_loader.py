@@ -20,6 +20,10 @@ class DataLoader:
                 option = UIWorker.input('Select an option: ')
             if option == '2':
                 self.data=CsvReader.ask_for_csv_data()
-        
+        return self.data
+    
+    def get_Numeric_Data(self) -> list:
+        self.data_check()
         self.data = [float(x) for x in self.data]
         return self.data
+        

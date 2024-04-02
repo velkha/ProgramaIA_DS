@@ -5,7 +5,11 @@ class MenusShow:
     def start_menu() -> int:
         '''Start menu of the app.'''
         UIWorker.clear()
-        UIWorker.print(['Start Menu', '1. Probability', '2. Statistics', '3. Exit'])
+        UIWorker.print(['Start Menu', 
+                        '1. Probability', 
+                        '2. Statistics',
+                        '3. Full Hypothesis testing',
+                        '0. Exit'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
     
@@ -92,6 +96,14 @@ class MenusShow:
         '''Hypothesis testing menu of the app.'''
         UIWorker.clear()
         UIWorker.print(['Hypothesis Testing Menu', '1. Z-test', '2. T-test', '3. Back'])
+        _rtr = UIWorker.input('Select an option: ')
+        return int(_rtr)
+    
+    @staticmethod
+    def hypotesis_menu() -> int:
+        '''Hypotesis menu of the app.'''
+        UIWorker.clear()
+        UIWorker.print(['Hypotesis Menu', '1. Hypotesis test', '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
     

@@ -14,6 +14,18 @@ class CsvReader:
                     _hashmap[_headers[i]].append(value)  # Append the value to the corresponding column
         return _hashmap
 
+    def read_csv_to_object(file_path, delimiter=';') -> list:
+        _object_list = []
+        with open(file_path, 'r') as file:
+            _csv_reader = csv.reader(file, delimiter=delimiter)
+            _headers = next(_csv_reader)
+            for row in _csv_reader:
+                _object = {}
+                for i, value in enumerate(row):
+                    _object[_headers[i]] = value
+                _object_list.append(_object)
+        return _object_list
+
     @staticmethod
     def read_csv_to_array(file_path, delimiter=';') -> list:
         _array = []
@@ -60,6 +72,8 @@ class CsvReader:
     @staticmethod
     def ask_for_csv_data() -> list | dict:
         _file_path = UIWorker.input('Enter the path to the CSV file: ')
+        if not _file_path.endswith('.csv'):
+            _file_path += '.csv'
         _delimiter = UIWorker.input('Enter the delimiter of the CSV file (default is ;): ')
         _type_of_data = ''
         while _type_of_data not in ['1', '2', '3', '4']:
@@ -77,7 +91,7 @@ class CsvReader:
         return CsvReader.get_csv_data(_file_path, _delimiter, _type_of_data)
     
     @staticmethod
-    def get_csv_data(file_path, delimiter, type_of_data=1) -> list | dict:
+    def get_csv_data(file_path: str, delimiter: str, type_of_data=1) -> list | dict:
         '''
         Get the data from a CSV file, depending on the type of data it contains.
         1. Single column data
@@ -90,10 +104,34 @@ class CsvReader:
         elif type_of_data == '2':
             return CsvReader.read_csv_to_bidimensional_array(file_path, delimiter)
         elif type_of_data == '3':
-            return CsvReader.read_csv_to_hashmap_w_headers(file_path, delimiter)
+            rtr = CsvReader.read_csv_to_hashmap_w_headers(file_path, delimiter)
+            if rtr.keys().__len__() == 1:
+                return rtr[list(rtr.keys())[0]]
+            else:
+                return CsvReader.choose_header_for_single_in_multiple(rtr)
         elif type_of_data == '4':
-            return CsvReader.read_csv_to_hashmap_w_headers(file_path, delimiter)
+            return CsvReader.read_csv_to_object(file_path, delimiter)
         else:
             UIWorker.print(['Invalid option. Using default.'])
             return CsvReader.get_csv_data(file_path, delimiter)
+    
+    def choose_header_for_single_in_multiple(rtr: dict) -> list:
+        '''Choose a header from a dictionary with multiple headers. To return only that column.'''
+        _keys = list(rtr.keys())
+        _selected_column = None
+        while _selected_column is None:
+            UIWorker.print(['Multiple headers detected:'])
+            for i, key in enumerate(_keys):
+                UIWorker.print([f'{i+1}. {key}'])
+            _selected_option = UIWorker.input('Select a header by number: ')
+            try:
+                _selected_index = int(_selected_option) - 1
+                if _selected_index >= 0 and _selected_index < len(_keys):
+                    _selected_column = _keys[_selected_index]
+                else:
+                    UIWorker.print(['Invalid option. Please try again.'])
+                    _selected_column = None
+            except ValueError:
+                UIWorker.print(['Invalid option. Please try again.'])
+        return rtr[_selected_column]
     
