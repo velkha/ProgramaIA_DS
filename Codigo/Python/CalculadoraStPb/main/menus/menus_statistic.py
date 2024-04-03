@@ -35,7 +35,8 @@ class MenusStatistic:
             8: self.calculate_percentiles,
             9: self.calculate_quartiles,
             10: self.calculate_value_for_percentile,
-            11: self.calculate_probability_more_than
+            11: self.calculate_probability_more_than,
+            12: self.get_everything_w_pandas
         }
         return _switcher.get(_rtr, self.basic_calcs_menu)()
     
@@ -64,37 +65,37 @@ class MenusStatistic:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The mean of the data is {BasicCalcs().calculate_mean(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_median(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The median of the data is {BasicCalcs().calculate_median(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_mode(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The mode of the data is {BasicCalcs().calculate_mode(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_variance(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The variance of the data is {BasicCalcs().calculate_variance(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_standard_deviation(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The standard deviation of the data is {BasicCalcs().calculate_standard_deviation(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_standard_error(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The standard error of the data is {BasicCalcs().calculate_standard_error(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def z_test(self) -> None:
         _data=self.data_loader.data_check()
@@ -102,66 +103,66 @@ class MenusStatistic:
         _sigma = float(input('Enter the population standard deviation: '))
         UIWorker.print([f'The Z-score of the data is {ZOperations().z_test(_data, _mu, _sigma)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.hypothesis_testing_menu()
+        self.hypothesis_testing_menu()
     
     def t_test(self) -> None:
         _data=self.data_loader.data_check()
         _mu = float(input('Enter the population mean: '))
         UIWorker.print([f'The T-score of the data is {TOperations().t_test(_data, _mu)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.hypothesis_testing_menu()
+        self.hypothesis_testing_menu()
     
     def calculate_skewness(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The skewness of the data is {BasicCalcs().calculate_skewness(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_percentiles(self) -> None:
         _data=self.data_loader.data_check()
         _percentiles = [float(x) for x in input('Enter the percentiles separated by spaces: ').split()]
         UIWorker.print([f'The percentiles of the data are {BasicCalcs().calculate_percentiles(_data, _percentiles)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_quartiles(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The quartiles of the data are {BasicCalcs().calculate_quartiles(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_value_for_percentile(self) -> None:
         _data=self.data_loader.data_check()
         _percentile = float(input('Enter the percentile: '))
         UIWorker.print([f'The value for the percentile of the data is {BasicCalcs().calculate_value_for_percentile(_data, _percentile)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
     
     def calculate_sum(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The sum of the data is {BasicCalcs().calculate_sum(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.sum_operations_menu()
+        self.sum_operations_menu()
     
     def calculate_sum_standard_error(self) -> None:
         _data=self.data_loader.data_check()
         _probability = float(input('Enter the probability: '))
         UIWorker.print([f'The sum standard error of the data is {BasicCalcs().calculate_sum_standard_error(_data, _probability)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.sum_operations_menu()
+        self.sum_operations_menu()
     
     def calculate_sum_confidence_interval(self) -> None:
         _data=self.data_loader.data_check()
         UIWorker.print([f'The sum confidence interval of the data is {BasicCalcs().calculate_sum_confidence_interval(_data)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.sum_operations_menu()
+        self.sum_operations_menu()
     
     def calculate_sum_expected_value(self) -> None:
         _data=self.data_loader.data_check()
         _probability = float(input('Enter the probability: '))
         UIWorker.print([f'The sum expected value of the data is {BasicCalcs().calculate_sum_expected_value(_data, _probability)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.sum_operations_menu()
+        self.sum_operations_menu()
 
     def calculate_probability_more_than(self) -> None:
         _sample_size = int(input('Enter the sample size: '))
@@ -170,7 +171,7 @@ class MenusStatistic:
         _value = float(input('Enter the value: '))
         UIWorker.print([f'The probability of the data is {BasicCalcs().calculate_probability_more_than(_sample_size, _mean, _standard_deviation, _value)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.basic_calcs_menu()
+        self.basic_calcs_menu()
 
     def calculate_probability_sum_more_than(self) -> None:
         _sample_size = int(input('Enter the sample size: '))
@@ -179,7 +180,13 @@ class MenusStatistic:
         _value = float(input('Enter the value: '))
         UIWorker.print([f'The probability of the data is {BasicCalcs().calculate_probability_sum_more_than(_sample_size, _mean, _standard_deviation, _value)}'], "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.sum_operations_menu()
+        self.sum_operations_menu()
+    
+    def get_everything_w_pandas(self) -> None:
+        _date_frame = self.data_loader.data_check(5)
+        UIWorker.print(_date_frame.describe())
+        UIWorker.input('Press Enter to continue...')
+        self.basic_calcs_menu()
 
     def start_menu(self) -> int:
         pass

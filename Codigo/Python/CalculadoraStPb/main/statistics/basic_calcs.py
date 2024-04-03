@@ -1,6 +1,6 @@
 import math
 import numpy as np
-
+import pandas as pd
 class BasicCalcs:
     '''All the basic statistical calculations for numerical data are implemented here.'''
     def __init__(self):
@@ -86,3 +86,6 @@ class BasicCalcs:
         z_score = (value - (mean * sample_size)) / (standard_deviation * math.sqrt(sample_size))
         probability = 1 - self.calculate_cumulative_probability(z_score)
         return probability
+    
+    def get_all_w_pd(self, dataFrame: pd.DataFrame) -> pd.DataFrame:
+        return dataFrame.describe()

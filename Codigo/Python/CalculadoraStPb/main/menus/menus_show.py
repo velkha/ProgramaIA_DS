@@ -9,6 +9,7 @@ class MenusShow:
                         '1. Probability', 
                         '2. Statistics',
                         '3. Full Hypothesis testing',
+                        '4. Linear Regresion',
                         '0. Exit'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
@@ -73,6 +74,7 @@ class MenusShow:
                         '9. Calculate quartiles',
                         '10. Calculate value for percentile',
                         '11. Calculate probability more than',
+                        '12. Get everything with pandas',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
@@ -132,3 +134,12 @@ class MenusShow:
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
     
+    @staticmethod
+    def linear_regresion_menu() -> int:
+        '''Linear regresion menu of the app.'''
+        UIWorker.clear()
+        UIWorker.print(['Linear Regresion Menu',
+                        '1. Plot data',
+                        '0. Back'])
+        _rtr = UIWorker.input('Select an option: ')
+        return int(_rtr)

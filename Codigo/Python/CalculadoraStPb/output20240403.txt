@@ -1,0 +1,2197 @@
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+5. Load the CSV file into a pandas DataFrame
+--- END OF OUTPUT ---
+5
+SAT,GPA
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+5. Load the CSV file into a pandas DataFrame
+--- END OF OUTPUT ---
+5
+SAT,GPA
+--- END OF OUTPUT ---
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+--- END OF OUTPUT ---
+Invalid option. Using default.
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+Invalid option. try again.
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+SAT,GPA
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+SAT,GPA
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+,
+SAT
+GPA
+--- END OF OUTPUT ---
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+,
+count
+mean
+std
+min
+25%
+50%
+75%
+max
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+1
+Probability Menu
+1. Plot Menu
+2. Calculate probability
+3. Calculate complement
+4. Calculate union
+5. Calculate intersection
+6. Calculate conditional
+7. Calculate total favorable outcomes
+8. Calculate binomial probability
+9. Normal approximation to binomial
+10. Calculate probabilities for value
+11. Calculate probability under a value
+12. Calculate probability under a value with sample data
+0. Back
+--- END OF OUTPUT ---
+12
+3
+slre
+
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+5. Load the CSV file into a pandas DataFrame
+--- END OF OUTPUT ---
+
+Invalid option. Please try again.
+--- END OF OUTPUT ---
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+5. Load the CSV file into a pandas DataFrame
+--- END OF OUTPUT ---
+
+Invalid option. Please try again.
+--- END OF OUTPUT ---
+What type of data is in the CSV file?
+1. Single column data
+2. Multiple column data
+3. Single column data with headers
+4. Multiple column data with headers
+5. Load the CSV file into a pandas DataFrame
+--- END OF OUTPUT ---
+3
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+--- END OF OUTPUT ---
+Invalid option. try again.
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+,
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+,
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+
+SAT,GPA
+--- END OF OUTPUT ---
+
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+2
+slre
+,
+SAT
+GPA
+--- END OF OUTPUT ---
+
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+Data already loaded.
+--- END OF OUTPUT ---
+Would you like to use the loaded data or load a new file?
+1. Use the loaded data
+2. Load a new file
+--- END OF OUTPUT ---
+1
+SAT
+GPA
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+1
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+12
+slre
+,
+Panda saved on pandas_output20240403.csv
+--- END OF OUTPUT ---
+
+Basic Calculations Menu
+1. Calculate mean
+2. Calculate median
+3. Calculate mode
+4. Calculate variance
+5. Calculate standard deviation
+6. Calculate standard error
+7. Calculate skewness
+8. Calculate percentiles
+9. Calculate quartiles
+10. Calculate value for percentile
+11. Calculate probability more than
+12. Get everything with pandas
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+3
+Hypotesis Menu
+1. Hypotesis test simple
+2. Hypotesis test full data
+0. Back
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+2
+Statistics Menu
+1. Basic calculations
+2. Hypothesis testing
+3. Sum operations
+0. Back
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+0. Exit
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+1
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Select the name of the y column
+--- END OF OUTPUT ---
+GPA
+Select the name of the x column
+--- END OF OUTPUT ---
+SAT
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Select the name of the y column
+--- END OF OUTPUT ---
+GPA
+Select the name of the x column
+--- END OF OUTPUT ---
+SAT
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+0
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---

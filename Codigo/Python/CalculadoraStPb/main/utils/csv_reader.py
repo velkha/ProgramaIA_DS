@@ -1,5 +1,6 @@
 import csv
 from utils.ui_worker import UIWorker
+import pandas as pd
 class CsvReader:
     @staticmethod
     def read_csv_to_hashmap_w_headers(file_path, delimiter=';') -> dict:
@@ -70,50 +71,56 @@ class CsvReader:
             return next(_csv_reader)
         
     @staticmethod
-    def ask_for_csv_data() -> list | dict:
+    def ask_for_csv_data(pre_select=-1) -> list | dict:
         _file_path = UIWorker.input('Enter the path to the CSV file: ')
         if not _file_path.endswith('.csv'):
             _file_path += '.csv'
         _delimiter = UIWorker.input('Enter the delimiter of the CSV file (default is ;): ')
-        _type_of_data = ''
-        while _type_of_data not in ['1', '2', '3', '4']:
-            UIWorker.print(['What type of data is in the CSV file?',
-                            '1. Single column data',
-                            '2. Multiple column data',
-                            '3. Single column data with headers',
-                            '4. Multiple column data with headers',
-                            ])
-            _type_of_data = UIWorker.input('Select an option: ')
-            if _type_of_data not in ['1', '2', '3', '4']:
-                UIWorker.print(['Invalid option. Please try again.'])
+        _type_of_data = pre_select
+        if _type_of_data == -1:
+            while _type_of_data not in ['1', '2', '3', '4', '5']:
+                UIWorker.print(['What type of data is in the CSV file?',
+                                '1. Single column data',
+                                '2. Multiple column data',
+                                '3. Single column data with headers',
+                                '4. Multiple column data with headers',
+                                '5. Load the CSV file into a pandas DataFrame'
+                                ])
+                _type_of_data = UIWorker.input('Select an option: ')
+                if _type_of_data not in ['1', '2', '3', '4' , '5']:
+                    UIWorker.print(['Invalid option. Please try again.'])
         if _delimiter == '':
             _delimiter = ';'
-        return CsvReader.get_csv_data(_file_path, _delimiter, _type_of_data)
+        _rtr = CsvReader.get_csv_data(_file_path, _delimiter, _type_of_data)
+        return _rtr
     
     @staticmethod
-    def get_csv_data(file_path: str, delimiter: str, type_of_data=1) -> list | dict:
+    def get_csv_data(file_path: str, delimiter: str, type_of_data: str) -> list | dict:
         '''
         Get the data from a CSV file, depending on the type of data it contains.
         1. Single column data
         2. Multiple column data
         3. Single column data with headers
         4. Multiple column data with headers
+        5. Load the CSV file into a pandas DataFrame
         '''
-        if type_of_data == '1':
+        if type_of_data == 1:
             return CsvReader.read_csv_to_array(file_path, delimiter)
-        elif type_of_data == '2':
+        elif type_of_data == 2:
             return CsvReader.read_csv_to_bidimensional_array(file_path, delimiter)
-        elif type_of_data == '3':
+        elif type_of_data == 3:
             rtr = CsvReader.read_csv_to_hashmap_w_headers(file_path, delimiter)
             if rtr.keys().__len__() == 1:
                 return rtr[list(rtr.keys())[0]]
             else:
                 return CsvReader.choose_header_for_single_in_multiple(rtr)
-        elif type_of_data == '4':
+        elif type_of_data == 4:
             return CsvReader.read_csv_to_object(file_path, delimiter)
+        elif type_of_data == 5:
+            return CsvReader.csv_to_dataframe_pd(file_path, delimiter)
         else:
-            UIWorker.print(['Invalid option. Using default.'])
-            return CsvReader.get_csv_data(file_path, delimiter)
+            UIWorker.print(['Invalid option. Returning None.'])
+            return None
     
     def choose_header_for_single_in_multiple(rtr: dict) -> list:
         '''Choose a header from a dictionary with multiple headers. To return only that column.'''
@@ -134,4 +141,8 @@ class CsvReader:
             except ValueError:
                 UIWorker.print(['Invalid option. Please try again.'])
         return rtr[_selected_column]
+    
+    def csv_to_dataframe_pd(file_path: str, delimiter: str) -> pd.DataFrame:
+        '''Read a CSV file into a pandas DataFrame.'''
+        return pd.read_csv(file_path, delimiter=delimiter)
     

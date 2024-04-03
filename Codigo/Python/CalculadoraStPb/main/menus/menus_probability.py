@@ -41,41 +41,41 @@ class MenusProbability:
         _sample_space = int(UIWorker.input('Enter the sample space size: '))
         UIWorker.print(f'The probability of the event is {ProbabilityOperations().calculate_probability(_event_outcomes, _sample_space)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def calculate_complement(self) -> None:
         _probability = float(UIWorker.input('Enter the probability: '))
         UIWorker.print(f'The complement of the probability is {ProbabilityOperations().complement(_probability)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def calculate_union(self) -> None:
         _probability_a = float(UIWorker.input('Enter the first probability: '))
         _probability_b = float(UIWorker.input('Enter the second probability: '))
         UIWorker.print(f'The union of the probabilities is {ProbabilityOperations().union(_probability_a, _probability_b)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def calculate_intersection(self) -> None:
         _probability_a = float(UIWorker.input('Enter the first probability: '))
         _probability_b = float(UIWorker.input('Enter the second probability: '))
         UIWorker.print(f'The intersection of the probabilities is {ProbabilityOperations().intersection(_probability_a, _probability_b)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def calculate_conditional(self) -> None:
         _probability_a = float(UIWorker.input('Enter the first probability: '))
         _probability_b = float(UIWorker.input('Enter the second probability: '))
         UIWorker.print(f'The conditional probability is {ProbabilityOperations().conditional(_probability_a, _probability_b)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def calculateTotalFavorableOutcomes(self) -> None:
         _sample_space = int(UIWorker.input('Enter the sample space size: '))
         _favorableOutcomes = int(UIWorker.input('Enter the number of favorable outcomes: '))
         UIWorker.print(f'The total number of favorable outcomes is {ProbabilityOperations().calculateTotalFavorableOutcomes(_sample_space, _favorableOutcomes)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def calculateBinomialProbability(self) -> None:
         _k = int(UIWorker.input('Enter the number of successes: '))
@@ -86,14 +86,14 @@ class MenusProbability:
         if _option == 'y':
             ProbabilityPlotter().plot_binomial_probability(_n, _p)
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
 
     def plot_binomial_probability(self) -> None:
         _n = int(UIWorker.input('Enter the number of trials: '))
         _p = float(UIWorker.input('Enter the probability of success: '))
         ProbabilityPlotter().plot_binomial_probability(_n, _p)
         UIWorker.input('Press Enter to continue...')
-        return self.plot_menu()
+        self.plot_menu()
     
     def binomialProbabilityNormalApproximation(self) -> None:
         _n = int(UIWorker.input('Enter the number of trials: '))
@@ -101,7 +101,7 @@ class MenusProbability:
         _k = int(UIWorker.input('Enter the number of successes: '))
         UIWorker.print(f'The normal approximation to the binomial distribution is {ProbabilityOperations().binomialProbabilityNormalApproximation(_k, _n, _p)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def calculate_value_probabilities(self) -> None:
         _data=self.data_loader.data_check()
@@ -111,13 +111,13 @@ class MenusProbability:
             ProbabilityPlotter().plot_probabilities_histogram(_data)
         
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
 
     def plot_probabilities_histogram(self) -> None:
         _data=self.data_loader.data_check()
         ProbabilityPlotter().plot_probabilities_histogram(_data)
         UIWorker.input('Press Enter to continue...')
-        return self.plot_menu()
+        self.plot_menu()
     
     def probability_under_value(self) -> None:
         _value = float(UIWorker.input('Enter the value: '))
@@ -127,14 +127,14 @@ class MenusProbability:
 
         UIWorker.print(f'The probability of getting a value under {_value} is {ProbabilityOperations().probability_under_value(_value, _mean, _std_dev, _sample_size)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
     
     def probability_under_value_with_sample(self) -> None:
         _value = float(UIWorker.input('Enter the value: '))
         _data=self.data_loader.data_check()
         UIWorker.print(f'The probability of getting a value under {_value} is {ProbabilityOperations().probability_under_value_with_sample(_value, _data)}', "Blue")
         UIWorker.input('Press Enter to continue...')
-        return self.probability_menu()
+        self.probability_menu()
 
 
     def start_menu(self) -> int:

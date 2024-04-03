@@ -45,7 +45,7 @@ class MenusHypotesis:
         for key, value in _averages.items():
             UIWorker.print(f"Average of {key}: {value}")
         UIWorker.input("Press Enter to continue...")
-        return self.hypotesis_test_simple_menu()
+        self.hypotesis_test_simple_menu()
 
     def check_variance_of_sample_data_in_groups(self) -> None:
         self.ask_keys()
@@ -53,7 +53,7 @@ class MenusHypotesis:
         for key, value in _variances.items():
             UIWorker.print(f"Variance of {key}: {value}")
         UIWorker.input("Press Enter to continue...")
-        return self.hypotesis_test_simple_menu()
+        self.hypotesis_test_simple_menu()
 
     def check_proportion_of_sample_data_in_groups(self) -> None:
         self.ask_keys()
@@ -61,7 +61,7 @@ class MenusHypotesis:
         for key, value in _proportions.items():
             UIWorker.print(f"Proportion of {key}: {value}")
         UIWorker.input("Press Enter to continue...")
-        return self.hypotesis_test_simple_menu()
+        self.hypotesis_test_simple_menu()
     
     def ask_keys(self) -> tuple[str, str]:
         if self.group_key and self.value_key:
@@ -90,7 +90,7 @@ class MenusHypotesis:
             1: self.compare_keys_values,
         }
 
-        return _switcher.get(_rtr, self.hypotesis_menu)()
+        _switcher.get(_rtr, self.hypotesis_menu)()
     
     def compare_keys_values(self) -> None:
         self.ask_keys()
@@ -106,4 +106,4 @@ class MenusHypotesis:
             UIWorker.print(f"Pooled Values: {_rtr[1]} ")
         
         UIWorker.input("Press Enter to continue...")
-        return self.hypotesis_test_full_data_menu()
+        self.hypotesis_test_full_data_menu()

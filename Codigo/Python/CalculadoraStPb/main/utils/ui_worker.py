@@ -2,10 +2,20 @@ from typing import List
 import os
 from utils.file_worker import FileWorker
 from datetime import datetime
+import pandas as pd
+from utils.directory_worker import DirectoryWorker
 class UIWorker:
     '''Class to handle user interaction with the app, in the future if other way of UI is needed change from this class using it as conector.'''	
     @staticmethod
-    def print(_text: List[str] | str, _color: str = 'white', _save: bool = True) -> None:
+    def print(_text: List[str] | str | pd.DataFrame, _color: str = 'white', _save: bool = True) -> None:
+        switcher = {
+            pd.DataFrame: UIWorker.print_pandas,
+        }
+        handler = switcher.get(type(_text), UIWorker.print_normal)
+        handler(_text, _color, _save)
+
+    @staticmethod
+    def print_normal(_text: List[str] | str, _color: str = 'white', _save: bool = True) -> None:
         _color_codes = {
             'red': '\033[31m',
             'green': '\033[32m',
@@ -25,6 +35,17 @@ class UIWorker:
             _current_date = datetime.now()
             _date_string = _current_date.strftime("%Y%m%d")
             FileWorker.write_file(f'output{_date_string}.txt', _text)
+            FileWorker.write_file(f'output{_date_string}.txt', "--- END OF OUTPUT ---")
+
+    @staticmethod
+    def print_pandas(_text: pd.DataFrame, _color: str = 'white', _save: bool = True) -> None:
+        print (_text)
+        if _save:
+            _current_date = datetime.now()
+            _date_string = _current_date.strftime("%Y%m%d")
+            _pandas_csv_file = DirectoryWorker.secure_save(f'pandas_output{_date_string}', '.csv')
+            FileWorker.write_file(f'output{_date_string}.txt', f'Panda saved on {_pandas_csv_file}')
+            _text.to_csv(_pandas_csv_file)
             FileWorker.write_file(f'output{_date_string}.txt', "--- END OF OUTPUT ---")
 
     @staticmethod
