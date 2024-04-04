@@ -2195,3 +2195,368 @@ Linear Regresion Menu
 1. Plot data
 0. Back
 --- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+2
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+2
+No data has been set yet.
+--- END OF OUTPUT ---
+
+Linear Regresion Menu
+1. Plot data
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+No data has been set yet.
+--- END OF OUTPUT ---
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Data set.
+--- END OF OUTPUT ---
+
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+2
+No data has been set yet.
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Data set.
+--- END OF OUTPUT ---
+
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+2
+Select the name of the y column
+--- END OF OUTPUT ---
+GPA
+Select the name of the x column
+--- END OF OUTPUT ---
+SAT
+
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+Select the name of the y column
+--- END OF OUTPUT ---
+GPA
+Select the name of the x column
+--- END OF OUTPUT ---
+SAT
+OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Wed, 03 Apr 2024   Prob (F-statistic):           7.20e-11
+Time:                        13:01:36   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+--- END OF OUTPUT ---
+Summary generated.
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Data set.
+--- END OF OUTPUT ---
+3
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+Select the name of the y column
+--- END OF OUTPUT ---
+GPA
+Select the name of the x column
+--- END OF OUTPUT ---
+SAT
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---
+4
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+1
+slre
+,
+Data set.
+--- END OF OUTPUT ---
+
+Linear Regresion Menu
+1. Set data
+2. Plot data
+3. Generate summary
+0. Back
+--- END OF OUTPUT ---
+3
+Select the name of the y column
+--- END OF OUTPUT ---
+GPA
+Select the name of the x column
+--- END OF OUTPUT ---
+SAT
+OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    GPA   R-squared:                       0.406
+Model:                            OLS   Adj. R-squared:                  0.399
+Method:                 Least Squares   F-statistic:                     56.05
+Date:                Wed, 03 Apr 2024   Prob (F-statistic):           7.20e-11
+Time:                        13:06:42   Log-Likelihood:                 12.672
+No. Observations:                  84   AIC:                            -21.34
+Df Residuals:                      82   BIC:                            -16.48
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2750      0.409      0.673      0.503      -0.538       1.088
+SAT            0.0017      0.000      7.487      0.000       0.001       0.002
+==============================================================================
+Omnibus:                       12.839   Durbin-Watson:                   0.950
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               16.155
+Skew:                          -0.722   Prob(JB):                     0.000310
+Kurtosis:                       4.590   Cond. No.                     3.29e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+--- END OF OUTPUT ---
+Summary generated.
+--- END OF OUTPUT ---
+Start Menu
+1. Probability
+2. Statistics
+3. Full Hypothesis testing
+4. Linear Regresion
+0. Exit
+--- END OF OUTPUT ---

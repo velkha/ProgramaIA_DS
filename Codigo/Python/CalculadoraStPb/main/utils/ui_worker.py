@@ -5,18 +5,7 @@ from datetime import datetime
 import pandas as pd
 from utils.directory_worker import DirectoryWorker
 class UIWorker:
-    '''Class to handle user interaction with the app, in the future if other way of UI is needed change from this class using it as conector.'''	
-    @staticmethod
-    def print(_text: List[str] | str | pd.DataFrame, _color: str = 'white', _save: bool = True) -> None:
-        switcher = {
-            pd.DataFrame: UIWorker.print_pandas,
-        }
-        handler = switcher.get(type(_text), UIWorker.print_normal)
-        handler(_text, _color, _save)
-
-    @staticmethod
-    def print_normal(_text: List[str] | str, _color: str = 'white', _save: bool = True) -> None:
-        _color_codes = {
+    COLOR_CODES = {
             'red': '\033[31m',
             'green': '\033[32m',
             'yellow': '\033[33m',
@@ -26,31 +15,53 @@ class UIWorker:
             'white': '\033[37m',
             'reset': '\033[0m',
         }
-        if isinstance(_text, str):
-            _text = [_text]
+    '''Class to handle user interaction with the app, in the future if other way of UI is needed change from this class using it as conector.'''	
+    @staticmethod
+    def print(_text: any, _color: str = 'white', _save: bool = True) -> None:
+        switcher = {
+            pd.DataFrame: UIWorker.print_pandas,
+            str: UIWorker.print_normal,
+            list: UIWorker.print_normal
+        }
+        handler = switcher.get(type(_text), UIWorker.print_unknown)
+        handler(_text, _color, _save)
 
-        for t in _text:
-            print(f"{_color_codes[_color.lower()]}{t}{_color_codes['reset']}")
-        if _save:
+    @staticmethod
+    def print_normal(text: List[str] | str, color: str = 'white', save: bool = True) -> None:
+        
+        if isinstance(text, str):
+            text = [text]
+
+        for t in text:
+            print(f"{UIWorker.COLOR_CODES[color.lower()]}{t}{UIWorker.COLOR_CODES['reset']}")
+        if save:
             _current_date = datetime.now()
             _date_string = _current_date.strftime("%Y%m%d")
-            FileWorker.write_file(f'output{_date_string}.txt', _text)
+            FileWorker.write_file(f'output{_date_string}.txt', text)
             FileWorker.write_file(f'output{_date_string}.txt', "--- END OF OUTPUT ---")
 
     @staticmethod
-    def print_pandas(_text: pd.DataFrame, _color: str = 'white', _save: bool = True) -> None:
-        print (_text)
-        if _save:
+    def print_pandas(text: pd.DataFrame, color: str = 'white', save: bool = True) -> None:
+        print (text)
+        if save:
             _current_date = datetime.now()
             _date_string = _current_date.strftime("%Y%m%d")
             _pandas_csv_file = DirectoryWorker.secure_save(f'pandas_output{_date_string}', '.csv')
             FileWorker.write_file(f'output{_date_string}.txt', f'Panda saved on {_pandas_csv_file}')
-            _text.to_csv(_pandas_csv_file)
+            text.to_csv(_pandas_csv_file)
+            FileWorker.write_file(f'output{_date_string}.txt', "--- END OF OUTPUT ---")
+    @staticmethod
+    def print_unknown(text: any, color: str = 'white', save: bool = True) -> None:
+        print(f"{UIWorker.COLOR_CODES[color.lower()]}{text}{UIWorker.COLOR_CODES['reset']}")
+        if save:
+            _current_date = datetime.now()
+            _date_string = _current_date.strftime("%Y%m%d")
+            FileWorker.write_file(f'output{_date_string}.txt', text.__str__())
             FileWorker.write_file(f'output{_date_string}.txt', "--- END OF OUTPUT ---")
 
     @staticmethod
-    def input(_text: List[str] | str) -> str:
-        _rtr = input(_text)
+    def input(text: List[str] | str) -> str:
+        _rtr = input(text)
         _current_date = datetime.now()
         _date_string = _current_date.strftime("%Y%m%d")
         FileWorker.write_file(f'output{_date_string}.txt', _rtr)
@@ -67,5 +78,5 @@ class UIWorker:
         UIWorker.print(_files)
 
     @staticmethod
-    def show_error(_error: str | List[str]) -> None:
-        UIWorker.print([f"Error: {_error}"], 'red', False)
+    def show_error(error: str | List[str]) -> None:
+        UIWorker.print([f"Error: {error}"], 'red', False)

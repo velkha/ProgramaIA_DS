@@ -139,7 +139,9 @@ class MenusShow:
         '''Linear regresion menu of the app.'''
         UIWorker.clear()
         UIWorker.print(['Linear Regresion Menu',
-                        '1. Plot data',
+                        '1. Set data',
+                        '2. Plot data',
+                        '3. Generate summary',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
