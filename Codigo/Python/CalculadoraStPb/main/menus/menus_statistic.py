@@ -36,7 +36,10 @@ class MenusStatistic:
             9: self.calculate_quartiles,
             10: self.calculate_value_for_percentile,
             11: self.calculate_probability_more_than,
-            12: self.get_everything_w_pandas
+            12: self.get_everything_w_pandas,
+            13: self.calculate_probability_sum_more_than,
+            14: self.calculatePercentajeStandaricedCurve
+
         }
         return _switcher.get(_rtr, self.basic_calcs_menu)()
     
@@ -185,6 +188,13 @@ class MenusStatistic:
     def get_everything_w_pandas(self) -> None:
         _date_frame = self.data_loader.data_check(5)
         UIWorker.print(_date_frame.describe())
+        UIWorker.input('Press Enter to continue...')
+        self.basic_calcs_menu()
+
+    def calculatePercentajeStandaricedCurve(self) -> None:
+        _value = float(input('Enter the value: '))
+        _rtr = BasicCalcs().calculatePercentajeStandaricedCurve(_value)
+        UIWorker.print(['The probability of the data is: ', f'left side: {_rtr*100}', f'right side: {(1-_rtr)*100}'], "Blue")
         UIWorker.input('Press Enter to continue...')
         self.basic_calcs_menu()
 

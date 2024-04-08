@@ -1,6 +1,7 @@
 import math
 import numpy as np
 import pandas as pd
+import scipy.stats as stats
 class BasicCalcs:
     '''All the basic statistical calculations for numerical data are implemented here.'''
     def __init__(self):
@@ -89,3 +90,6 @@ class BasicCalcs:
     
     def get_all_w_pd(self, dataFrame: pd.DataFrame) -> pd.DataFrame:
         return dataFrame.describe()
+    
+    def calculatePercentajeStandaricedCurve(self, value):
+        return stats.norm.cdf(value)

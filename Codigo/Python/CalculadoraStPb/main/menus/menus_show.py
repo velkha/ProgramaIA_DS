@@ -75,6 +75,8 @@ class MenusShow:
                         '10. Calculate value for percentile',
                         '11. Calculate probability more than',
                         '12. Get everything with pandas',
+                        '13. Calculate probability sum more than',
+                        '14. Calculate percentage standardized curve',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)
