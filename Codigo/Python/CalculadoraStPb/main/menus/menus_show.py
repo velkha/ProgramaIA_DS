@@ -144,6 +144,7 @@ class MenusShow:
                         '1. Set data',
                         '2. Plot data',
                         '3. Generate summary',
+                        '4. Plot regresion',
                         '0. Back'])
         _rtr = UIWorker.input('Select an option: ')
         return int(_rtr)

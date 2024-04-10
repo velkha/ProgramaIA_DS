@@ -1,6 +1,7 @@
 import csv
 from utils.ui_worker import UIWorker
 import pandas as pd
+import os
 class CsvReader:
     @staticmethod
     def read_csv_to_hashmap_w_headers(file_path, delimiter=';') -> dict:
@@ -75,8 +76,15 @@ class CsvReader:
         _file_path = UIWorker.input('Enter the path to the CSV file: ')
         if not _file_path.endswith('.csv'):
             _file_path += '.csv'
+        while not os.path.isfile(_file_path):
+            UIWorker.print(['File not found. Please try again.'])
+            _file_path = UIWorker.input('Enter the path to the CSV file: ')
+            if not _file_path.endswith('.csv'):
+                _file_path += '.csv'
+    
         _delimiter = UIWorker.input('Enter the delimiter of the CSV file (default is ;): ')
         _type_of_data = pre_select
+
         if _type_of_data == -1:
             while _type_of_data not in ['1', '2', '3', '4', '5']:
                 UIWorker.print(['What type of data is in the CSV file?',
@@ -89,6 +97,7 @@ class CsvReader:
                 _type_of_data = UIWorker.input('Select an option: ')
                 if _type_of_data not in ['1', '2', '3', '4' , '5']:
                     UIWorker.print(['Invalid option. Please try again.'])
+
         if _delimiter == '':
             _delimiter = ';'
         _rtr = CsvReader.get_csv_data(_file_path, _delimiter, _type_of_data)
@@ -144,5 +153,8 @@ class CsvReader:
     
     def csv_to_dataframe_pd(file_path: str, delimiter: str) -> pd.DataFrame:
         '''Read a CSV file into a pandas DataFrame.'''
-        return pd.read_csv(file_path, delimiter=delimiter)
+        try:
+            return pd.read_csv(file_path, delimiter=delimiter)
+        except FileNotFoundError:
+            return pd.DataFrame()
     
