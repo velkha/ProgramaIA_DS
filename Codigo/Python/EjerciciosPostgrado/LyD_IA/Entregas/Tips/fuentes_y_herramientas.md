@@ -2,7 +2,8 @@
 - Para el markdown y en general los formatos del notebook
     - https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf
     - https://ingeh.medium.com/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed
-
+    - https://www.ibm.com/docs/en/db2-event-store/2.0.0?topic=notebooks-markdown-jupyter-cheatsheet
+    
 - Para la paleta de colores
     - https://coolors.co/palettes/trending
 
