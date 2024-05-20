@@ -39,14 +39,18 @@ def remove_outliers (df, column, threshold=3):
     """
     Remove outliers from a column in a DataFrame
     """
+    if df[column].dtype != np.number:
+        return df
     z_scores = np.abs(stats.zscore(df[column]))
     df = df[z_scores < threshold]
     return df
 
 def remove_outliers_iqr (df, column):
     """
-    Remove outliers from a column in a DataFrame using IQR
+    Remove outliers from a column in a DataFrame using IQR (Interquartile Range)
     """
+    if df[column].dtype != np.number:
+        return df
     q1 = df[column].quantile(0.25)
     q3 = df[column].quantile(0.75)
     iqr = q3 - q1
@@ -59,6 +63,8 @@ def remove_all_outliers (df, threshold=3):
     """
     Remove outliers from all numerical columns in a DataFrame
     """
+    #The include parameter is used to specify the data types to be included while selecting the columns
+    #so that we can remove outliers from only numerical columns
     for column in df.select_dtypes(include=[np.number]).columns:
         df = remove_outliers(df, column, threshold)
     return df
