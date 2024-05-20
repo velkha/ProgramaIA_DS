@@ -1,0 +1,48 @@
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import LabelEncoder
+
+def normalize_df (df):
+    """
+    Normalize a DataFrame
+    """
+    df = (df - df.min()) / (df.max() - df.min())
+    return df
+
+def standardize_df (df):
+    """
+    Standardize a DataFrame
+    """
+    df = (df - df.mean()) / df.std()
+    return df
+
+def scale_df (df, scaler):
+    """
+    Scale a DataFrame using a scaler
+    """
+    df = scaler.fit_transform(df)
+    return df
+
+def inverse_scale_df (df, scaler):
+    """
+    Inverse scale a DataFrame using a scaler
+    """
+    df = scaler.inverse_transform(df)
+    return df
+
+def encode_categorical (df, columns):
+    """
+    Encode categorical columns in a DataFrame
+    """
+    df = pd.get_dummies(df, columns=columns)
+    return df
+
+#estudiar esto
+def encode_categorical_label (df, column):
+    """
+    Encode a categorical column in a DataFrame using Label Encoding
+    """
+    le = LabelEncoder()
+    df[column] = le.fit_transform(df[column])
+    return df
+
