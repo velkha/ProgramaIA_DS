@@ -94,3 +94,45 @@ def remove_corr_with_less_than(df: pd.DataFrame, threshold: float) -> pd.DataFra
     to_drop = to_drop_neg + to_drop_pos
     df = df.drop(to_drop, axis=1)
     return df
+
+def get_outliers(df: pd.DataFrame, column: str, threshold: float = 3) -> pd.DataFrame:
+    """
+    Get outliers from a column in a DataFrame
+    """
+    if df[column].dtype != np.number:
+        return df
+    z_scores = np.abs(stats.zscore(df[column]))
+    outliers = df[z_scores >= threshold]
+    return outliers
+
+def get_outliers_iqr(df: pd.DataFrame, column: str) -> pd.DataFrame:
+    """
+    Get outliers from a column in a DataFrame using IQR (Interquartile Range)
+    """
+    if df[column].dtype != np.number:
+        return df
+    q1 = df[column].quantile(0.25)
+    q3 = df[column].quantile(0.75)
+    iqr = q3 - q1
+    lower_bound = q1 - 1.5 * iqr
+    upper_bound = q3 + 1.5 * iqr
+    outliers = df[(df[column] < lower_bound) | (df[column] > upper_bound)]
+    return outliers
+
+def get_outliers_multiple(df: pd.DataFrame, threshold: float = 3) -> pd.DataFrame:
+    """
+    Get outliers from all numerical columns in a DataFrame
+    """
+    outliers = pd.DataFrame()
+    for column in df.select_dtypes(include=[np.number]).columns:
+        outliers = pd.concat([outliers, get_outliers(df, column, threshold)])
+    return outliers
+
+def get_outliers_multiple_w_iqr(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Get outliers from all numerical columns in a DataFrame using IQR (Interquartile Range)
+    """
+    outliers = pd.DataFrame()
+    for column in df.select_dtypes(include=[np.number]).columns:
+        outliers = pd.concat([outliers, get_outliers_iqr(df, column)])
+    return outliers

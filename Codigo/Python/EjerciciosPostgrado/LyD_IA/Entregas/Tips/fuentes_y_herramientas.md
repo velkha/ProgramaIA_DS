@@ -13,4 +13,7 @@
 - Para las diferentes funciones de pandas
     - Apuntes Lenguajes y Desarrollo de Soluciones IA
     - https://pandas.pydata.org/docs/
+
+- Para los formatos y decoraciones de los graficos
+    - https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_star_poly.html
     
