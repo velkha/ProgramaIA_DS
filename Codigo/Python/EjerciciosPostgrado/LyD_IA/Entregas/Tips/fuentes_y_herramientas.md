@@ -17,3 +17,8 @@
 - Para los formatos y decoraciones de los graficos
     - https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_star_poly.html
     
+- Seabonrn: 
+    - https://seaborn.pydata.org/examples/index.html
+
+- Ayudas en como realizar algunas funciones estadisticas y de datasets:
+    - Antiguo ejercicio propio que tengo en github: https://github.com/velkha/ProgramaIA_DS/tree/main/Codigo/Python/CalculadoraStPb
