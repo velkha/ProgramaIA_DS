@@ -26,20 +26,6 @@
 - **Text Analytics**: $2 por 1,000 llamadas de API
   - Estimación de 50,000 llamadas al mes: $100
 
-### 2. **Costos de Personal**
-
-#### a. **Ingeniero de Datos**
-- Salario promedio: $8,000/mes
-
-#### b. **Científico de Datos**
-- Salario promedio: $9,000/mes
-
-#### c. **Desarrollador**
-- Salario promedio: $7,000/mes
-
-#### d. **Analista de Negocios**
-- Salario promedio: $6,000/mes
-
 ### 3. **Costos Totales**
 
 #### a. **Costos de Infraestructura Mensuales**
